@@ -1,0 +1,1 @@
+# All database models when working orm will come under this folder
