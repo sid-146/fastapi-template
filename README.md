@@ -4,15 +4,15 @@ This repository provides a fast and easy starting point for building RESTful API
 
 ## Features
 
-- **FastAPI**: Fast and modern web framework for building APIs with Python 3.7+.
-- **SQLAlchemy**: ORM for interacting with databases.
-- **Alembic**: For database migrations.
-- **Pydantic**: For data validation and serialization.
-- **Docker**: Containerization setup for easy deployment.
-- **Testing**: Setup for unit tests and integration tests.
-- **Pre-configured CORS**: Easily configurable for cross-origin requests.
-- **Environment configuration**: Manage environment variables with `.env` files.
-- **Swagger UI**: Automatic generation of API documentation.
+-   **FastAPI**: Fast and modern web framework for building APIs with Python 3.7+.
+-   **SQLAlchemy**: ORM for interacting with databases.
+-   **Alembic**: For database migrations.
+-   **Pydantic**: For data validation and serialization.
+-   **Docker**: Containerization setup for easy deployment.
+-   **Testing**: Setup for unit tests and integration tests.
+-   **Pre-configured CORS**: Easily configurable for cross-origin requests.
+-   **Environment configuration**: Manage environment variables with `.env` files.
+-   **Swagger UI**: Automatic generation of API documentation.
 
 ## Getting Started
 
@@ -20,9 +20,9 @@ This repository provides a fast and easy starting point for building RESTful API
 
 Make sure you have the following tools installed:
 
-- Python 3.8 (preferably 3.9 or higher)
-- [Docker](https://www.docker.com/)
-- [Poetry](https://python-poetry.org/) (optional, for dependency management)
+-   Python 3.8 (preferably 3.9 or higher)
+-   [Docker](https://www.docker.com/)
+-   [Poetry](https://python-poetry.org/) (optional, for dependency management)
 
 ### Clone the Repository
 
@@ -89,6 +89,13 @@ To run the application, you can use the following command:
 uvicorn app.main:app --reload
 ```
 
+Or Run using `app.py` file
+
+```bash
+cd src
+py app.py
+```
+
 This will start the FastAPI server at `http://localhost:8000`.
 
 ### Docker Setup (Optional)
@@ -129,7 +136,7 @@ fastapi-template/
 ├── Dockerfile                      # Dockerfile for containerizing the app (todo)
 ├── docker-compose.yml              # Docker Compose configuration (todo)
 ├── requirements.txt                # Python dependencies
-└── README.md                       # This file 
+└── README.md                       # This file
 ```
 
 ## Testing
@@ -155,5 +162,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ## To use this
-Feel free to customize this as needed by forking this repository 🍴!
 
+Feel free to customize this as needed by forking this repository 🍴!
