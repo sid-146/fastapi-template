@@ -5,3 +5,6 @@ ignore-patterns=.*venv/.*,.*__pycache__/.*
 
 [MESSAGES CONTROL]
 disable = R0903, W0614, W0401
+
+[REPORTS]
+fail-under=7.5
