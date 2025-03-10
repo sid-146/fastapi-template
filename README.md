@@ -1,3 +1,5 @@
+[![Python Linting](https://github.com/sid-146/fastapi-template/actions/workflows/fastapi-pylint.yml/badge.svg)](https://github.com/sid-146/fastapi-template/actions/workflows/fastapi-pylint.yml)
+
 # FastAPI Template Repository
 
 This repository provides a fast and easy starting point for building RESTful APIs with [FastAPI](https://fastapi.tiangolo.com/). It includes a minimal, yet comprehensive setup to get you up and running quickly, with sensible defaults for projects of any size.
