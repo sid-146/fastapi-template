@@ -1,4 +1,4 @@
-[![Python Linting](https://github.com/sid-146/fastapi-template/actions/workflows/fastapi-pylint.yml/badge.svg)](https://github.com/sid-146/fastapi-template/actions/workflows/fastapi-pylint.yml)
+[![Pylint](https://github.com/sid-146/fastapi-template/actions/workflows/pylint.yml/badge.svg?branch=main)](https://github.com/sid-146/fastapi-template/actions/workflows/pylint.yml)
 
 # FastAPI Template Repository
 
