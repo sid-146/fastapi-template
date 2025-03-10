@@ -49,7 +49,7 @@ py -m venv venv
 
 ### Activate Virtual Env
 
-Navigate to Scripts in virtual envrionment.
+Navigate to Scripts in virtual environment.
 
 ```bash
 cd venv/Scripts
