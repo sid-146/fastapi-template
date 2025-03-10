@@ -1,9 +1,24 @@
+"""
+@author: https://github.com/sid-146
+
+Setting Module
+Stores Settings class Inherits BaseSetting from pydantic setting
+"""
+
+from typing import Literal
+
 from pydantic import computed_field
 from pydantic_settings import BaseSettings
-from typing import Literal
 
 
 class Settings(BaseSettings):
+    """
+    Setting class
+
+    Used to get all starting configuration and environment variables.
+    Access through creating object.
+    """
+
     APP_NAME: str = "Awesome API"
     ADMIN_EMAIL: str = ""
     DB_USER: str = ""
@@ -26,6 +41,12 @@ class Settings(BaseSettings):
         return conf
 
     class Config:
+        """
+        Config for BaseSetting
+
+        `env_file`: Specifies which .env file to read
+        """
+
         # Replace this with the path to your .env file
         env_file = "template.env"
 

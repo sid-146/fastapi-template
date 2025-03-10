@@ -1,3 +1,10 @@
+"""
+@author: https://github.com/sid-146
+
+Starting Point of the API
+Complete Setup and Heads
+"""
+
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 from starlette.status import *
